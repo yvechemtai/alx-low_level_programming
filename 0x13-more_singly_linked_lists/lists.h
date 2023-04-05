@@ -4,6 +4,7 @@
 #include <stdlib.h>
 
 /**
+ * This is a header
  * struct listint_s - singly linked list
  * @n: integer value of the node
  * @next: pointer to the next node in the list
