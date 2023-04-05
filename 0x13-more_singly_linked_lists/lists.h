@@ -1,10 +1,13 @@
 #ifndef LISTS_H
 #define LISTS_H
 
+/*
+ * Description: header file containing prototypes and functions
+ */
+
 #include <stdlib.h>
 
 /**
- * This is a header
  * struct listint_s - singly linked list
  * @n: integer value of the node
  * @next: pointer to the next node in the list
@@ -13,8 +16,8 @@
  */
 typedef struct listint_s
 {
-    int n;
-    struct listint_s *next;
+	int n;
+	struct listint_s *next;
 } listint_t;
 
 /* Function prototypes */
