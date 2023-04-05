@@ -9,10 +9,10 @@
 
 /**
  * struct listint_s - singly linked list
- * @n: integer value of the node
- * @next: pointer to the next node in the list
+ * @n: integer
+ * @next: points to the next node
  *
- * Description: Defines a singly linked list node structure
+ * Description: Singly linked list node structure for Holberton project.
  */
 typedef struct listint_s
 {
@@ -20,7 +20,6 @@ typedef struct listint_s
 	struct listint_s *next;
 } listint_t;
 
-/* Function prototypes */
 size_t print_listint(const listint_t *h);
 size_t listint_len(const listint_t *h);
 listint_t *add_nodeint(listint_t **head, const int n);
